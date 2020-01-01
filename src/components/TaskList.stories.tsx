@@ -1,15 +1,16 @@
 // src/components/TaskList.stories.js
 
 import React from "react";
-import { action } from "@storybook/addon-actions";
-import { withKnobs, object } from "@storybook/addon-knobs/react";
+
 import { PureTaskList } from "./TaskList";
 import { taskData, actionsData } from "./Task.stories";
 
 export default {
   component: PureTaskList,
   title: "TaskList",
-  decorators: [withKnobs],
+  decorators: [
+    (story: any) => <div style={{ padding: "3rem" }}>{story()}</div>
+  ],
   excludeStories: /.*Data$/
 };
 
