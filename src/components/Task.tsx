@@ -36,6 +36,7 @@ const Task: React.FC<TaskProps> = ({
           value={title}
           readOnly={true}
           placeholder="Input title"
+          style={{ textOverflow: "ellipsis" }}
         />
       </div>
 
