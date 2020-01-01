@@ -1,14 +1,14 @@
-This is a example project following by the this example (https://www.learnstorybook.com/intro-to-storybook/react/en/get-started/) but bootstrapped by Typescript.
+This is a example project following by the this example (https://www.learnstorybook.com/intro-to-storybook/react/en/get-started/) bootstrapped by Typescript.
 
-Here, I used Typescript and configured project for the typescript development with Storybook.
+I created a sample project that used storybook using Typescript. And here I also tested chromatica, the Visual Regression test tool.
 
 - Applied Visual TDD
 - Used Automated Testing (Snapshot, Unit Tests)
 - Visual Regression Test (Chromatic - https://www.chromaticqa.com/ )
-- Storybook deployed to Netlify can access here -> https://taskbox-ts-storybook.netlify.com/
+- Storybook deployed to Netlify, you can access here -> https://taskbox-ts-storybook.netlify.com/
 - Redux used with Storybook
 
-Recommend:
+Recommend Book:
 Visual Testing Handbook dives deep into using Storybook to visual test components. Free 31-page ebook.
 (https://www.chromaticqa.com/book/visual-testing-handbook)
 
