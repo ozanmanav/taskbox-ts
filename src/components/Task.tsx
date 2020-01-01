@@ -30,7 +30,7 @@ const Task: React.FC<TaskProps> = ({
         />
         <span className="checkbox-custom" onClick={() => onArchiveTask(id)} />
       </label>
-      <div className="title">
+      <div className="title" style={{ background: "green" }}>
         <input
           type="text"
           value={title}
